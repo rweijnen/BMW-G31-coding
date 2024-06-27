@@ -6,6 +6,6 @@ SAS Module:
 ```
 C_STA_ALC_HandsOffGeschwAusschaltGrenzeKmh from 0A (8) to FF
 C_STA_ALC_HandsOffGeschwAusschaltGrenzeMph from 05 (5) to FF
-C_STA_ALC_HandsOffGeschwEinsschaltGrenzeKmh from 0A (8) to FF
+C_STA_ALC_HandsOffGeschwEinschaltGrenzeKmh from 0A (8) to FF
 C_STA_ALC_HandsOffGeschwEinschaltGrenzeMph from 06 (6) to FF
 ```
