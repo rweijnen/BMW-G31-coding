@@ -9,3 +9,8 @@ C_STA_ALC_HandsOffGeschwAusschaltGrenzeMph from 05 (5) to FF
 C_STA_ALC_HandsOffGeschwEinschaltGrenzeKmh from 0A (8) to FF
 C_STA_ALC_HandsOffGeschwEinschaltGrenzeMph from 06 (6) to FF
 ```
+
+Automatic lane change (initiated with stalk) active in all countries:
+```
+C_SWA_Land_aktiv to FF FF FF FF
+```
