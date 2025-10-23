@@ -28,6 +28,8 @@ dkombi2 GESCHWINDIGKEIT_EFF_X -> to m_sport
 dkombi2 GESCHWINDIGKEIT_ANZ_Y -> to m_sport
 ```
 
+See [detailed explanation](https://github.com/rweijnen/BMW-G31-coding/blob/main/speedometer.md) for a detailed writeup of the meaning of the values in the coding
+
 Launch control in DSC module (requires speedschalter AKTIV in EGS):
 ```
 C_Funktion_LaunchControl_01_1 -> to AKTIV
