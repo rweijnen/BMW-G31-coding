@@ -24,8 +24,8 @@ dkombi2 ***8212; expert mode ***8212; 3000 ***8212; MPA MSP VIEW ENABLE (optiona
 
 Speedometer move "needle" beyond 263 km/h (need to change scale to 330 km/h as well):
 ```
-GESCHWINDIGKEIT_EFF_X -> to m_sport
-GESCHWINDIGKEIT_ANZ_Y -> to m_sport
+dkombi2 GESCHWINDIGKEIT_EFF_X -> to m_sport
+dkombi2 GESCHWINDIGKEIT_ANZ_Y -> to m_sport
 ```
 
 Launch control in DSC module (requires speedschalter AKTIV in EGS):
@@ -34,7 +34,7 @@ C_Funktion_LaunchControl_01_1 -> to AKTIV
 
 ```
 
-G30/G31 LCi rear lights retrofit to G30/G31 (requires i-level 03-2021 or higher):
+G30/G31 LCi rear lights retrofit to G30/G31 (requires i-level 03-2021 (S15A-21-03-530) or higher):
 ```
 Add HELC to HO-WORT
 Code BDC module
@@ -49,4 +49,15 @@ BL_R_CCM: ccm_345 [01 59]
 BL_R_IS_LED: nicht_aktiv, default [00]
 BL_R_MIN_PWM: 5% [05]
 BL_R_WARMUEBERWACHUNG: nicht_aktiv [00]
+```
+
+G31 quiet close trunk:
+```
+Code in HKFM2
+
+ProfileCloseStopNode1PwmPlg -> wert_0 to 00, A0
+ProfileCloseStopNode2PwmPlg -> wert_0 to 00, A0
+ProfileCloseStopNode1PosPlg -> wert_0 to 00, A0
+ProfileCloseStopNode2PosPlg -> wert_0 to 00, A0
+
 ```
