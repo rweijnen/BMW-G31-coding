@@ -37,7 +37,8 @@ C_Funktion_LaunchControl_01_1 -> to AKTIV
 ```
 
 G30/G31 LCi rear lights retrofit to G30/G31 (requires i-level 03-2021 (S15A-21-03-530) or higher):
-```
+See [here](https://github.com/rweijnen/BMW-G31-coding/blob/main/BMW%20G30%20LCI%20rear%20light%20retrofit%20manual.pdf) for the retrofit manual
+.```
 Add HELC to HO-WORT
 Code BDC module
 
