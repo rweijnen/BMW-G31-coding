@@ -33,3 +33,20 @@ Launch control in DSC module (requires speedschalter AKTIV in EGS):
 C_Funktion_LaunchControl_01_1 -> to AKTIV
 
 ```
+
+G30/G31 LCi rear lights retrofit to G30/G31 (requires i-level 03-2021 or higher):
+```
+Add HELC to HO-WORT
+Code BDC module
+
+Verify/make changes manually:
+
+BL_L_CCM: ccm_346 [01 5A]
+BL_L_IS_LED: nicht_aktiv, default [00]
+BL_L_MIN_PWM: 5% [05]
+BL_L_WARMUEBERWACHUNG: nicht_aktiv [00]
+BL_R_CCM: ccm_345 [01 59]
+BL_R_IS_LED: nicht_aktiv, default [00]
+BL_R_MIN_PWM: 5% [05]
+BL_R_WARMUEBERWACHUNG: nicht_aktiv [00]
+```
