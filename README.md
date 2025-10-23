@@ -64,3 +64,10 @@ ProfileCloseStopNode1PosPlg -> wert_0 to 00, A0
 ProfileCloseStopNode2PosPlg -> wert_0 to 00, A0
 
 ```
+
+Gentleman switch coding (operate passenger seat controls from drivers seat), needs gentleman switch installed:
+```
+SM2 (0000225A) MEMORY_POPUP_VERSTELLZEITBEGRENZUNG -> 1
+SM2 (00002259) MEMORY_POPUP_VERSTELLZEITBEGRENZUNG -> 1
+BDC_BODY (00005FA9) SCHALTER_SITZEXT_VL_LIN_VAR (HcSeatHeating_17_17_255) code 30,30 -> F8,F8
+```
