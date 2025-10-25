@@ -71,3 +71,10 @@ SM2 (0000225A) MEMORY_POPUP_VERSTELLZEITBEGRENZUNG -> 1
 SM2 (00002259) MEMORY_POPUP_VERSTELLZEITBEGRENZUNG -> 1
 BDC_BODY (00005FA9) SCHALTER_SITZEXT_VL_LIN_VAR (HcSeatHeating_17_17_255) code 30,30 -> F8,F8
 ```
+
+High Beam Assistant always on / memory:
+```
+HU --> HIGH_BEAM_ASSISTANT = aktiv (should already be if you have HBA)
+BDC --> FLA_LAST_FUNCTION_ENA = aktiv -> remember on/off
+BDC --> FLA_AKTIVIERUNG = LDS_in_A_oder_2 -> use HBA also with lights on (default only when switch in auto)
+```
